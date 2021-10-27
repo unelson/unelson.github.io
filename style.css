@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgba(255, 255, 255, 0.849);
+	color: rgb(194, 24, 24);
+	font-size: 25px;
+	font-family: Helvetica;
+}
+
+#banner {
+	background-image: url("https://images.pexels.com/photos/18495/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	margin: 0;
+  overflow: hidden;
+	text-align: center;
+  line-height: normal;
+	color: white;
+	background-size: cover;
+  height: 480px;
+}
+
+
+.animate__animated.animate__hinge {
+  --animate-duration: 3s;
+  --animate-delay: 1s;
+  color: white;
+  size: 100px;
+}
+
+#nav {
+  display: flex;
+  color: white;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-between;
+  background-color: black;
+  height: 300;
+  margin: 0;
+}
+
+.textcentre {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}
+
+h2 {
+  text-decoration: wavy;
+}
+
+#footer {
+	background: rgb(209, 74, 92);
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+  padding: 16px;
+  border-radius: 8px;
+
+}
+
+#socials {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+#socials li {
+  text-align: center;
+}
+.button-social {
+  height: 50px
+}
+
+#footer-words {
+  color: aqua;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
